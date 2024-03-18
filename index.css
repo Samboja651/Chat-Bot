@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    background-color: greenyellow;
+    padding: 5px;
+}
+
+.intro{
+    display: flex;
+    /* gap: 30px; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p{
+    font-size: large;
+    background-color: greenyellow;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#bot{
+    background-color: lightgrey;
+    padding: 5px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+#bot:hover{
+    background-color: lightgreen;
+}
+
+h3{
+    font-size: x-large;
+}
